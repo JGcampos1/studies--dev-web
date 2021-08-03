@@ -1,0 +1,29 @@
+body{
+  background-image:url('/home/joao/Área de Trabalho/black-dark-3d-low-poly-geometric-background_79145-393.jpg');
+  background-size:auto 100vh;
+}
+header ul{
+  display: flex;
+  justify-content: space-around;
+}
+header li{
+
+  list-style: none;
+}
+ul li a{
+  color: greenyellow;
+  text-decoration: none;
+}
+ul li a:hover{
+  text-decoration: underline;
+}
+.site-subtitle,
+.site-title{
+  text-align: center;
+  color: greenyellow;
+  margin: top;
+}
+
+.site-subtitle{
+  font-size: 10;
+}

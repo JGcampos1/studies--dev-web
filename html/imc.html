@@ -1,0 +1,50 @@
+<meta charset="UTF_8">
+
+<script>
+
+    function pularLinha() {
+
+        document.write("<br>");
+
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pularLinha();
+
+    }
+
+    function calculaImc(peso, altura) {
+
+        return peso / (altura * altura);
+
+        
+    }
+    
+    var nome = prompt("Insira seu nome");
+    var sexo = prompt("Insira seu Sexo: ")
+    var pesoInformada = prompt("Insira a Peso que deseja calcular");
+    var alturaInformada = prompt("Insira a Altura que deseja calcular");
+
+    var imc = Math.round(calculaImc(pesoInformada,alturaInformada));
+    mostra("<h3>CALCULADORA DE IMC</h3>")
+    mostra("Nome: " + nome);
+    mostra("Sexo: " + sexo);
+    mostra("Altura: " + alturaInformada);
+    mostra("Peso : " + pesoInformada)
+    mostra("seu IMC é:" + imc);
+
+    if(imc<=18.0)
+    {
+        mostra("Vocẽ está muito magrin");
+    }
+    if(imc>=35.0)
+    {
+        mostra("Você está gordao");
+    }
+    if(imc >= 18.5 && imc <=35)
+    {
+        mostra("Você está na media");
+    }
+</script>

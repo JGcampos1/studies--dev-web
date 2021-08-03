@@ -1,0 +1,102 @@
+body{
+    background:url("templade.jpeg");
+}
+
+header{
+    border: 2px solid rgb(240, 73, 231);
+    border-radius: 0px 0px 20px 20px;
+    background:url("fundo.png");
+}
+.icon{
+    width: 200px;
+    margin: 0px 0px 0px 40px;
+}
+.banner{
+    position: relative;
+    width: 800px;
+    margin: auto auto;
+}
+    
+h1{
+    position: absolute;
+    top:60px;
+    display: inline;
+    margin: 0 0 0 0px;
+    padding: 20px;
+    color:rgb(38, 0, 255);
+    font-size   :50px;
+    font-weight: bold;  
+}
+
+nav{
+    text-align: center;
+    position: relative ;
+    height: 35px;
+    right:50px;
+}
+nav li{
+    display: inline;
+    margin: 100px 20px  10px 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
+nav a:hover{
+    color:blue;
+
+}
+main li{
+    display: inline-table;
+    width: auto;
+    text-align: center;
+    padding:0%;
+    margin:41px 80px 4px 80px;
+    border: 3px solid  rgb(244, 156, 252) ;
+    border-radius: 40px;
+}
+main li:hover{
+    border-color: white;
+    color: white
+}
+
+.amostra{
+    width: 250px;
+}
+.amostra:hover{
+    width:300px;    
+
+}
+.Nome {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.img-descrição{
+    font-size: 18px;
+}
+
+.img-preço {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer{
+    width: 150px auto;
+    background: url("bg.jpg");
+    padding: 5%;
+}
+footer img{
+    text-align: center;
+    margin: 15px 150px 15px 550px;
+    width: 100px;
+}
+
+.Copyright{
+
+    text-align: center;
+    color:#FFFFFF;
+}
+    

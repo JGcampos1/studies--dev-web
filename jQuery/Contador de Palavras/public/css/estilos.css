@@ -1,0 +1,79 @@
+body{
+    background-color:#0A446D;
+    overflow: scroll;
+    color:#FFBB00;
+}
+h1{
+    color:#FFBB00
+}
+.frase{
+    font-size: 20px;
+    text-align: center;
+    color:#FFBB00
+}
+.campo-digitacao{
+    font-size: 20px;
+    height: 120px;
+}
+
+.campo-desativado{
+    background-color: #0A446D;
+}
+
+.icones{
+    vertical-align: middle;
+
+}
+.botao{
+    display: block;
+    width: 150px;
+    height: 60px;
+    margin: 20px 5px;
+    font-weight: bold;
+    border: solid 1px #053455;
+    border-radius: 15px;
+    transition: 1s;
+    font-size: 19px;
+    background-color:#FF4C00;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    color:#033356;
+    
+}
+.botao:hover{
+    box-shadow: 3px 3px 3px 4px rgba(0, 0, 0, 0.5);
+
+}
+#botao-sync{
+    margin-left: 250px;
+}
+.botoes{
+    display: flex;
+    justify-content: center;
+}
+.placar{
+    display:none;
+}
+
+.nome-Label{
+    font-size:20px;
+    color: #0A7BCB;
+}
+input{
+    font-size:20px;
+    color: #0A7BCB;
+}
+
+.borda-verde{
+    border:3px solid green;
+}
+.borda-vermelha{
+    border:3px solid red; 
+}
+
+#erro{
+    color: red;
+    display:none
+}
+#spinner{
+    display: none;
+}

@@ -1,0 +1,46 @@
+<meta charset="UTF-8">
+
+<input />
+<button>Compare com o meu segredo</button>
+
+<script>
+    var segredo = [];
+    segredos.push(Math.round(Math.random() * 10));
+    segredos.push(Math.round(Math.random() * 10));
+    segredos.push(Math.round(Math.random() * 10));
+    segredos.push(Math.round(Math.random() * 10));
+    segredos.push(Math.round(Math.random() * 10));
+
+    console.log(segredos);
+
+    var input = document.querySelector("input");
+
+    input.focus();
+
+    function verifica() {
+
+        var achou = 0;
+        for (var i = 0; i < segredo.length; i++) {
+            if (input.value == segredo[i]) {
+
+                alert("Você ACERTOU!");
+                achou = true;
+                break;
+                i++;
+            }
+
+
+        }
+        if (achou == false) {
+            alert("VOCÊ ERROU,TENTE NOVAMENTE MAIS TARDE")
+        }
+        input.value = "";
+        input.focus();
+
+    }
+
+    var button = document.querySelector("button");
+
+    button.onclick = verifica;
+
+</script>

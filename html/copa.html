@@ -1,0 +1,33 @@
+<meta charset="UTF_8">
+
+
+<script>
+
+    function pularLinha() {
+
+        document.write("<br>");
+
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pularLinha();
+
+    }
+
+    var anoCopa = 1930;
+    var ano = parseInt(prompt("Até quando deseja ver se tem copa?"));
+    while (anoCopa <= ano) {
+        if (anoCopa != 1942 && anoCopa != 1946) {
+            mostra("teve copa em : " + anoCopa)
+        }
+        else {
+            mostra("Não teve copa em " + anoCopa + " por causa da guerra")
+        }
+        anoCopa=anoCopa+4;
+
+    }
+
+
+</script>
